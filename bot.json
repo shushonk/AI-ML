@@ -1,0 +1,450 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey"],
+      "bot_response": "Hey there!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye"],
+      "bot_response": "See you later!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": "The pleasure is all mine!",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+      "bot_response": "Start by typing: 'How to learn coding' on Google.",
+      "required_words": ["learn", "code"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["refund", "how", "can", "I", "get"],
+      "bot_response": "We don't offer refunds for free education.",
+      "required_words": ["refund", "i"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "are", "you"],
+      "bot_response": "I'm great! Thanks for asking.",
+      "required_words": ["how", "are", "you"]
+    },
+      {
+       "response_type": "question",
+        "user_input": "What is sustainable development?",
+        "bot_response": "Sustainable development is the process of meeting the needs of the present without compromising the ability of future generations to meet their own needs.",
+         "required_words": []
+      },
+      {
+         "response_type": "question",
+        "user_input": "What are the three pillars of sustainable development?",
+        "bot_response": "The three pillars of sustainable development are economic, social, and environmental sustainability.",
+          "required_words": []
+      },
+      {
+         "response_type": "question",
+        "user_input": "How does climate change impact sustainable development?",
+        "bot_response": "Climate change poses a significant threat to sustainable development by affecting ecosystems, water resources, agriculture, and human well-being.",
+          "required_words": ["nice", "meet", "you"]
+      },
+      {
+         "response_type": "question",
+        "user_input": "What are some examples of sustainable practices in business?",
+        "bot_response": "Examples of sustainable practices in business include using renewable energy, reducing waste, promoting fair labor practices, and implementing eco-friendly production methods.",
+          "required_words": ["learn", "code"]
+      },
+      {
+        "response_type": "question",
+        "user_input": "Why is biodiversity important for sustainable development?",
+        "bot_response": "Biodiversity is essential for maintaining ecosystem services, providing food security, and contributing to the resilience of ecosystems in the face of environmental changes.",
+           "required_words": ["refund", "i"]
+      },
+      {
+         "response_type": "question",
+          "user_input": "How can individuals reduce their ecological footprint in everyday life?",
+          "bot_response": "Individuals can reduce their ecological footprint by practicing energy conservation, minimizing water usage, adopting sustainable transportation methods, and making environmentally conscious choices in their daily activities.",
+           "required_words": []
+      },
+      {
+           "response_type": "question",
+          "user_input": "What are the challenges and opportunities of transitioning to a circular economy?",
+          "bot_response": "The transition to a circular economy poses challenges such as changing consumer behavior and redefining traditional business models. However, it also offers opportunities for waste reduction, resource efficiency, and innovative product design.",
+           "required_words": []
+      },
+      {
+            "response_type": "question",
+          "user_input": "How does sustainable urban planning contribute to resilient and livable cities?",
+          "bot_response": "Sustainable urban planning contributes to resilient and livable cities by prioritizing green spaces, promoting public transportation, implementing energy-efficient buildings, and integrating community input in the planning process.",
+            "required_words": []
+      },
+      {
+            "response_type": "question",
+          "user_input": "What role can renewable energy play in addressing climate change and achieving sustainable development goals?",
+          "bot_response": "Renewable energy plays a crucial role in addressing climate change and achieving sustainable development goals by reducing dependence on fossil fuels, lowering greenhouse gas emissions, and fostering energy security.",
+           "required_words": []
+      },
+      {
+           "response_type": "question",
+          "user_input": "How can governments encourage businesses to adopt sustainable practices?",
+          "bot_response": "Governments can encourage businesses to adopt sustainable practices through policies such as tax incentives for eco-friendly initiatives, regulatory frameworks promoting corporate social responsibility, and partnerships that support sustainable business models.",
+            "required_words": []
+      },
+      {
+         "response_type": "question",
+        "user_input": "How can communities promote sustainable development locally?",
+        "bot_response": "Communities can promote sustainable development by investing in renewable energy, supporting local agriculture, implementing waste reduction programs, and fostering social inclusivity.",
+          "required_words": []
+      },
+      {
+         "response_type": "question",
+        "user_input": "What role does education play in advancing sustainable development goals?",
+        "bot_response": "Education plays a crucial role in advancing sustainable development goals by raising awareness, fostering a sense of responsibility, and equipping individuals with the knowledge and skills needed to address environmental and social challenges.",
+         "required_words": []
+      },
+      {
+         "response_type": "question",
+        "user_input": "In what ways can businesses contribute to environmental sustainability?",
+        "bot_response": "Businesses can contribute to environmental sustainability by adopting eco-friendly practices, reducing carbon emissions, implementing efficient resource management, and integrating sustainability into their core values and operations.",
+         "required_words": []
+      },
+      {
+         "response_type": "question",
+        "user_input": "How does fair trade contribute to social sustainability?",
+        "bot_response": "Fair trade contributes to social sustainability by ensuring fair wages, safe working conditions, and ethical practices in the production of goods. It promotes social equity and empowerment of marginalized communities.",
+        "required_words": []
+      },
+      {
+         "response_type": "question",
+        "user_input": "What is the role of innovation in achieving sustainable development?",
+        "bot_response": "Innovation plays a key role in achieving sustainable development by driving advancements in technology, creating solutions for environmental challenges, and promoting more efficient and sustainable practices across various sectors.",
+         "required_words": []
+      },
+    {
+     "response_type": "question",
+      "user_input": "How can individuals reduce their ecological footprint in everyday life?",
+      "bot_response": "Individuals can reduce their ecological footprint by practicing energy conservation, minimizing water usage, adopting sustainable transportation methods, and making environmentally conscious choices in their daily activities.",
+       "required_words": []
+    },
+    {
+              "response_type": "question",
+      "user_input": "What are the challenges and opportunities of transitioning to a circular economy?",
+      "bot_response": "The transition to a circular economy poses challenges such as changing consumer behavior and redefining traditional business models. However, it also offers opportunities for waste reduction, resource efficiency, and innovative product design.",
+      "required_words": []
+    },
+    {
+      "response_type": "question",
+      "user_input": "How does sustainable urban planning contribute to resilient and livable cities?",
+      "bot_response": "Sustainable urban planning contributes to resilient and livable cities by prioritizing green spaces, promoting public transportation, implementing energy-efficient buildings, and integrating community input in the planning process.",
+        "required_words": []
+    },
+    {
+      "response_type": "question",
+      "user_input": "What role can renewable energy play in addressing climate change and achieving sustainable development goals?" ,
+      "bot_response": "Renewable energy plays a crucial role in addressing climate change and achieving sustainable development goals by reducing dependence on fossil fuels, lowering greenhouse gas emissions, and fostering energy security.",
+       "required_words": []
+    },
+    {
+      "response_type": "question",
+      "user_input": "How can governments encourage businesses to adopt sustainable practices?",
+      "bot_response": "Governments can encourage businesses to adopt sustainable practices through policies such as tax incentives for eco-friendly initiatives, regulatory frameworks promoting corporate social responsibility, and partnerships that support sustainable business models.",
+       "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What initiatives can communities take to promote biodiversity conservation in urban areas?",
+      "bot_response": "Communities can promote biodiversity by creating urban green corridors, planting native species, and implementing sustainable landscaping practices.",
+       "required_words": []
+    },
+    {
+      "response_type": "question",
+      "user_input": "In what ways can individuals contribute to reducing plastic pollution in their daily lives?",
+      "bot_response": "Individuals can reduce plastic pollution by using reusable bags, bottles, and containers, supporting plastic-free initiatives, and properly recycling plastic waste.",
+       "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What challenges do cities face in implementing sustainable transportation systems, and how can they overcome them?",
+      "bot_response": "Cities face challenges like infrastructure limitations and resistance to change. Overcoming these requires strategic planning, public awareness, and investment in alternative transportation modes.",
+      "required_words": []
+    },
+    {
+             "response_type": "question",
+      "user_input": "How can architects integrate sustainability principles into building designs to minimize environmental impact?",
+      "bot_response": "Architects can prioritize energy-efficient designs, use eco-friendly materials, incorporate renewable energy sources, and implement green building certifications.",
+       "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What benefits can businesses gain from adopting a corporate sustainability strategy beyond environmental impact?",
+      "bot_response": "Businesses adopting sustainability strategies can enhance brand reputation, attract environmentally conscious consumers, and achieve long-term financial stability.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can smart technologies contribute to more sustainable and efficient urban infrastructure?",
+      "bot_response": "Smart technologies can optimize energy use, improve waste management, enhance traffic flow, and provide real-time data for informed decision-making in urban planning.",
+       "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What policies can governments implement to promote responsible consumption and production patterns?",
+      "bot_response": "Governments can implement policies such as extended producer responsibility, eco-labeling, and incentives for sustainable manufacturing to promote responsible consumption and production.",
+        "required_words": []
+    },
+    {
+      "response_type": "question",
+      "user_input": "How does sustainable agriculture contribute to food security and environmental conservation?",
+      "bot_response": "Sustainable agriculture practices, such as organic farming and agroforestry, enhance soil health, reduce pesticide use, and promote biodiversity, ensuring long-term food security.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What role can green finance play in supporting environmentally sustainable projects and businesses?",
+      "bot_response": "Green finance channels capital toward sustainable initiatives by providing loans, investments, and financial incentives for projects that have positive environmental impacts.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can educational institutions incorporate sustainability education into their curricula to empower future leaders?",
+      "bot_response": "Educational institutions can integrate sustainability across disciplines, promote environmental awareness, and engage students in hands-on sustainability projects.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What measures can individuals take to promote energy efficiency in their homes?",
+      "bot_response": "Individuals can promote energy efficiency by using energy-efficient appliances, improving insulation, and adopting smart home technologies that optimize energy consumption.",
+       "required_words": []
+    },
+    {
+      "response_type": "question",
+      "user_input": "In what ways can businesses incorporate social sustainability into their corporate strategies?",
+      "bot_response": "Businesses can incorporate social sustainability by promoting diversity and inclusion, ensuring fair labor practices, and actively contributing to community development projects.",
+       "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How does sustainable forestry contribute to environmental conservation and responsible resource management?",
+      "bot_response": "Sustainable forestry practices involve selective harvesting, reforestation efforts, and protecting biodiversity, contributing to environmental conservation and ensuring a long-term supply of timber resources.",
+        "required_words": []
+    },
+    {
+      "response_type": "question",
+      "user_input": "What role can green technology play in mitigating the environmental impact of industrial processes?",
+      "bot_response": "Green technology can reduce industrial emissions, improve resource efficiency, and minimize environmental impact by implementing cleaner production methods and sustainable manufacturing processes.",
+       "required_words": []
+  
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can communities build resilience to the impacts of climate change?",
+      "bot_response": "Communities can build resilience by developing early warning systems, implementing climate-smart infrastructure, and fostering community-based adaptation strategies to address the challenges posed by climate change.",
+       "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What are the potential benefits of incorporating nature-based solutions in urban planning?",
+      "bot_response": "Nature-based solutions in urban planning, such as green roofs and urban green spaces, can enhance air quality, reduce urban heat islands, and improve overall well-being for residents.",
+         "required_words": []
+    },
+    {
+      "response_type": "question",
+      "user_input": "In what ways can technology promote sustainable and ethical consumption patterns?",
+      "bot_response": "Technology can promote sustainable consumption by providing transparency in supply chains, supporting product traceability, and offering platforms for sharing information about ethical and sustainable products.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What steps can governments take to address the environmental impact of fast fashion?",
+      "bot_response": "Governments can address the environmental impact of fast fashion through regulations promoting sustainable practices, encouraging circular fashion initiatives, and raising awareness about the social and environmental consequences of fast fashion.",
+       "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can coastal communities adapt to rising sea levels and increased climate-related risks?",
+      "bot_response": "Coastal communities can adapt by implementing coastal protection measures, developing early warning systems for storms and floods, and promoting sustainable land-use planning to reduce vulnerability to climate-related risks.",
+      "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What role can international cooperation play in addressing global environmental challenges?",
+      "bot_response": "International cooperation is essential for addressing global environmental challenges such as climate change and biodiversity loss. Collaborative efforts can lead to shared solutions, knowledge exchange, and coordinated action on a global scale.",
+       "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can individuals support sustainable fisheries and marine conservation?",
+      "bot_response": "Individuals can support sustainable fisheries by choosing sustainably sourced seafood, reducing plastic waste to protect marine ecosystems, and advocating for policies that promote responsible fishing practices.",
+         "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What innovative technologies can be employed to enhance water conservation in agriculture?",
+      "bot_response": "Innovative technologies such as precision irrigation, rainwater harvesting, and sensor-based monitoring systems can enhance water conservation in agriculture, ensuring more efficient use of water resources.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can green building materials contribute to environmentally friendly construction practices?",
+      "bot_response": "Green building materials, such as recycled steel, bamboo, and low-impact insulation, contribute to environmentally friendly construction by reducing resource depletion, energy consumption, and environmental pollution.",
+       "required_words": []
+    },
+    {
+        "response_type": "question",
+      "user_input": "What strategies can cities implement to improve air quality and reduce pollution levels?",
+      "bot_response": "Cities can improve air quality by promoting public transportation, implementing vehicle emission standards, and increasing green spaces. Additionally, strict industrial pollution control measures can significantly reduce pollution levels.",
+      "required_words": []
+    },
+    {
+        "response_type": "question",
+      "user_input": "In what ways can the fashion industry adopt sustainable and ethical practices?",
+      "bot_response": "The fashion industry can adopt sustainable and ethical practices by prioritizing eco-friendly materials, reducing water usage in production, implementing fair labor practices, and encouraging circular fashion concepts like clothing recycling and upcycling.",
+         "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can technology contribute to effective waste management and recycling initiatives?",
+      "bot_response": "Technology can contribute to waste management by implementing smart waste bins, improving waste sorting processes, and utilizing data analytics for efficient recycling programs that reduce the environmental impact of waste disposal.",
+        "required_words": []
+    },
+    {
+      "response_type": "question",
+  
+      "user_input": "What role can sustainable tourism play in preserving natural habitats and promoting cultural conservation?",
+      "bot_response": "Sustainable tourism practices involve minimizing environmental impact, respecting local cultures, and supporting conservation efforts. This approach ensures that tourism benefits local communities while preserving natural ecosystems and cultural heritage.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can circular design principles be applied to electronic products to reduce electronic waste?",
+      "bot_response": "Circular design for electronic products involves designing for longevity, repairability, and recycling. This can be achieved by using modular components, promoting upgrades, and establishing take-back programs for responsible disposal of electronic waste.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What measures can governments take to promote sustainable and inclusive economic development?",
+      "bot_response": "Governments can promote sustainable and inclusive economic development through policies that prioritize social equity, invest in education and healthcare, support small businesses, and encourage green technologies and industries.",
+       "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can individuals and businesses contribute to reforestation efforts and combat deforestation?",
+      "bot_response": "Individuals and businesses can contribute to reforestation by participating in tree-planting initiatives, supporting sustainable forestry practices, and choosing products sourced from responsibly managed forests. Additionally, reducing paper consumption and promoting conservation awareness are essential steps.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can communities enhance resilience to extreme weather events and natural disasters?",
+      "bot_response": "Communities can enhance resilience by developing emergency response plans, implementing infrastructure improvements, and promoting community engagement in disaster preparedness and recovery efforts.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What sustainable practices can be implemented in the food industry to reduce environmental impact?",
+      "bot_response": "Sustainable practices in the food industry include sourcing locally, reducing food waste, adopting eco-friendly packaging, and promoting regenerative agriculture to minimize environmental impact.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can advancements in green transportation contribute to reducing carbon emissions?",
+      "bot_response": "Advancements in green transportation, such as electric vehicles, public transit improvements, and bike-sharing programs, contribute to reducing carbon emissions and promoting sustainable urban mobility.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "In what ways can the fashion industry promote fair labor practices and ethical working conditions?",
+      "bot_response": "The fashion industry can promote fair labor practices by ensuring safe working conditions, paying fair wages, and supporting initiatives that address social issues within the supply chain, such as child labor and exploitation.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What role can community gardens play in promoting local food production and fostering social connections?",
+      "bot_response": "Community gardens contribute to local food production by providing fresh produce, fostering community engagement, and educating residents about sustainable agriculture and healthy eating habits.",
+         "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can technology support the monitoring and conservation of endangered species and biodiversity?",
+      "bot_response": "Technology supports conservation efforts by providing tools for monitoring, tracking, and studying endangered species. Drones, satellite imaging, and sensor networks aid in collecting data crucial for wildlife protection and biodiversity conservation.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What sustainable practices can be implemented in the hospitality industry to reduce environmental impact?",
+      "bot_response": "Sustainable practices in the hospitality industry include energy-efficient building designs, waste reduction initiatives, water conservation measures, and promoting responsible tourism practices among guests.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can circular fashion initiatives promote a more sustainable and ethical approach to clothing consumption?",
+      "bot_response": "Circular fashion initiatives promote sustainability by encouraging clothing recycling, upcycling, and reducing textile waste. Programs like clothing rental, resale, and design for disassembly contribute to a circular fashion economy.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What steps can individuals take to support and engage in local environmental conservation projects?",
+      "bot_response": "Individuals can support environmental conservation by volunteering for local projects, participating in community clean-ups, educating others about conservation issues, and supporting environmental organizations through donations or advocacy.",
+       "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "In what ways can eco-friendly technology contribute to sustainable development in rural areas?",
+      "bot_response": "Eco-friendly technology can support sustainable development in rural areas by providing clean energy solutions, improving agricultural practices, enhancing access to clean water, and facilitating education through digital tools.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can urban agriculture contribute to local food security and community well-being?",
+      "bot_response": "Urban agriculture contributes to local food security by providing fresh produce, reducing food miles, and fostering community engagement. It enhances community well-being by creating green spaces and promoting sustainable living.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "What role can sustainable transportation play in reducing air pollution and improving public health?",
+      "bot_response": "Sustainable transportation, including electric vehicles and public transit, reduces air pollution by lowering emissions. This contributes to improved public health outcomes by reducing respiratory illnesses and promoting cleaner urban environments.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can businesses integrate the principles of the circular economy into their supply chain management?",
+      "bot_response": "Businesses can integrate circular economy principles by designing products for longevity, adopting recycling programs, and establishing partnerships to reuse materials within the supply chain, thereby minimizing waste and environmental impact.",
+        "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "In what ways can green infrastructure enhance the resilience of urban areas to climate change?",
+      "bot_response": "Green infrastructure, such as green roofs and permeable pavements, enhances urban resilience by mitigating flood risks, reducing heat islands, and supporting biodiversity, creating more adaptable and climate-resilient cities.",
+        "required_words": []
+    },
+    {
+  "response_type": "question",
+      "user_input": "What initiatives can promote sustainable and responsible tourism practices among travelers?",
+      "bot_response": "Initiatives to promote sustainable tourism include eco-certifications, responsible travel campaigns, and community-based tourism projects. These initiatives encourage travelers to minimize their environmental impact and support local communities.",
+       "required_words": []
+    },
+    {
+       "response_type": "question",
+      "user_input": "How can individuals and businesses contribute to reducing electronic waste (e-waste) and promoting responsible disposal?",
+      "bot_response": "Individuals and businesses can reduce e-waste by recycling electronic devices, participating in e-waste collection events, and supporting manufacturers with take-back programs. Responsible disposal ensures the proper recycling or disposal of electronic products.",
+       "required_words": []
+    },
+    
+    {
+          "required_words": ["hello", "hi", "hey"],
+          "bot_response": "Hello there! How can I help you today?"
+    },
+      {
+          "required_words": ["how", "are", "you"],
+          "bot_response": "I'm just a bot, but I'm doing great! How about you?"
+      },
+      {
+          "required_words": ["bye", "goodbye"],
+          "bot_response": "Goodbye! Have a great day!"
+      }
+  ]
+  
